@@ -39,12 +39,14 @@ We selected two features (`'concavity3'` and `'radius3'`) from the dataset for t
 ## Results & Visualization
 
 With `numpy.random.seed(67)`{.python} and 3 hidden neurons in the hidden layer, after 1000 iterations:
+
 $$
 W_{1} = \begin{bmatrix}
 0.19524 & 0.68716 & -0.91797\\
 1.00147 & 0.14186 & 0.25523
 \end{bmatrix}
 $$
+
 $$
 b_{1} = \begin{bmatrix}
 0.01039 & 0.31522 & 0.00000
@@ -57,6 +59,7 @@ W_{2} = \begin{bmatrix}
 -0.06768
 \end{bmatrix}
 $$
+
 $$
 b_{2} = \begin{bmatrix}
 -1.16904
