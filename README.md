@@ -38,7 +38,7 @@ We selected two features (`'concavity3'` and `'radius3'`) from the dataset for t
 
 ## Results & Visualization
 
-With [`numpy.random.seed(67)`]{.python} and 3 hidden neurons in the hidden layer, after 1000 iterations:
+With `numpy.random.seed(67)` and 3 hidden neurons in the hidden layer, after 1000 iterations:
 
 $$
 W_{1} = \begin{bmatrix}
@@ -96,7 +96,7 @@ Each member contributed to different components of the network:
 1. Clone the GitHub repository:
 
 ```sh
-git clone [repository_url]
+git clone https://github.com/vhs-axo/csc173-neural-network.git
 ```
 
 2. Have the package and project manager `uv` installed.
@@ -114,10 +114,13 @@ uv venv
 5. Activate the Virtual Environment:
 
 	- On macOS/Linux:
+	
 	```bash
 	source .venv/bin/activate
 	```
+
 	- On Windows:
+	
 	```psh
 	.venv\Scripts\activate
 	```
