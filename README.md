@@ -38,7 +38,7 @@ We selected two features (`'concavity3'` and `'radius3'`) from the dataset for t
 
 ## Results & Visualization
 
-With `numpy.random.seed(67)`{:.python} and 3 hidden neurons in the hidden layer, after 1000 iterations:
+With `numpy.random.seed(67)`{:.py} and 3 hidden neurons in the hidden layer, after 1000 iterations:
 
 $$
 W_{1} = \begin{bmatrix}
